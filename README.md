@@ -12,10 +12,10 @@ Exceptions for domains that are incompatible with [fake IP](https://www.rfc-edit
 
     ```
     rule-providers:
-      fake-ip-filter:
+      fake-ip-filter-set:
         type: http
         behavior: domain
-        url: "https://github.com/silver716/fake-ip-filter/raw/master/fake_ip_filter_subscription.payload"
+        url: "https://github.com/silver716/fake-ip-filter/raw/master/fake_ip_filter_set.yaml"
         interval: 600
     ```
 
@@ -24,6 +24,6 @@ Exceptions for domains that are incompatible with [fake IP](https://www.rfc-edit
     ```
     dns:
       fake-ip-filter:
-        - rule-set:fake-ip-filter
+        - rule-set:fake-ip-filter-set
       fake-ip-filter-mode: "blacklist"
     ```
