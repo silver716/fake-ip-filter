@@ -1,0 +1,154 @@
+payload:
+  - "*" # Single label
+  #
+  ## LAN START ##
+  - ".test"
+  - ".example"
+  - ".invalid"
+  - ".lan"
+  - ".local"
+  - ".localhost"
+  - ".localdomain"
+  - "+.home.arpa"
+  ## LAN END ##
+  #
+  ## NTP START ##
+  - "time.*.com"
+  - "time.*.gov"
+  - "time.*.edu.cn"
+  - "time.*.apple.com"
+  - "time1.*.com"
+  - "time2.*.com"
+  - "time3.*.com"
+  - "time4.*.com"
+  - "time5.*.com"
+  - "time6.*.com"
+  - "time7.*.com"
+  - "ntp.*.com"
+  - "ntp1.*.com"
+  - "ntp2.*.com"
+  - "ntp3.*.com"
+  - "ntp4.*.com"
+  - "ntp5.*.com"
+  - "ntp6.*.com"
+  - "ntp7.*.com"
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - "+.pool.ntp.org"
+  - "time1.cloud.tencent.com"
+  ## NTP END ##
+  #
+  ## STUN (GENERIC) START ##
+  - "+.stun.*.*"
+  - "+.stun.*.*.*"
+  - "+.stun.*.*.*.*"
+  - "+.stun.*.*.*.*.*"
+  ## STUN (GENERIC) END ##
+  #
+  ## ROUTERS (GENERIC) START ##
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - "heartbeat.belkin.com"
+  ## ROUTERS (GENERIC) END ##
+  #
+  ## GAMES (GENERIC) START ##
+  - "+.wotgame.cn"
+  - "+.wggames.cn"
+  - "+.wowsgame.cn"
+  - "+.wargaming.net"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.square-enix.com"
+  ## GAMES (GENERIC) END ##
+  #
+  ## GOOGLE START ##
+  - "proxy.golang.org"
+  - "lens.l.google.com"
+  - "stun.l.google.com"
+  ## GOOGLE END ##
+  #
+  ## APPLE START ##
+  - "mesu.apple.com"
+  - "swscan.apple.com"
+  - "swquery.apple.com"
+  - "swdownload.apple.com"
+  - "swcdn.apple.com"
+  - "swdist.apple.com"
+  ## APPLE END ##
+  #
+  ## NINTENDO START ##
+  - "*.n.n.srv.nintendo.net" # SWITCH
+  ## NINTENDO END ##
+  #
+  ## SONY START ##
+  - "+.stun.playstation.net" # PLAYSTATION
+  ## SONY END ##
+  #
+  ## MICROSOFT START ##
+  - "xbox.*.*.microsoft.com" # XBOX
+  - "*.*.xboxlive.com" # XBOX
+  - "+.msftncsi.com"
+  - "+.msftconnecttest.com"
+  ## MICROSOFT END ##
+  #
+  ## XIAOMI START ##
+  - "*.xiami.com"
+  - "+.market.xiaomi.com"
+  ## XIAOMI END ##
+  #
+  ## PLEX START ##
+  - "+.plex.direct"
+  #
+  ## NETFLIX START ##
+  - "+.nflxvideo.net"
+  ## NETFLIX END ##
+  #
+  ## BILIBILI START ##
+  - "*.mcdn.bilivideo.cn"
+  ## BILIBILI END ##
+  #
+  ## NETEASE START ##
+  - "music.163.com"
+  - "*.music.163.com"
+  - "*.126.net"
+  ## NETEASE END ##
+  #
+  ## TENCENT START ##
+  - "y.qq.com"
+  - "*.y.qq.com"
+  - "streamoc.music.tc.qq.com"
+  - "mobileoc.music.tc.qq.com"
+  - "isure.stream.qqmusic.qq.com"
+  - "dl.stream.qqmusic.qq.com"
+  - "aqqmusic.tc.qq.com"
+  - "amobile.music.tc.qq.com"
+  - "localhost.ptlogin2.qq.com" # https://github.com/Kr328/ClashForAndroid/blob/ffa559a57102ed8bc20eba41aa236a7764741bf9/core/src/main/golang/native/config/defaults.go#L10
+  - "localhost.sec.qq.com"
+  ## TENCENT END ##
+  #
+  ## CHINA MOBILE GROUP START ##
+  - "*.music.migu.cn" # 咪咕音乐
+  - "music.migu.cn" # 咪咕音乐
+  ## CHINA MOBILE GROUP END ##
+  #
+  ## BAIDU START ##
+  - "musicapi.taihe.com" # 千千音乐
+  - "music.taihe.com" # 千千音乐
+  ## BAIDU END ##
+  #
+  ## KUGOU MUSIC START ##
+  - "songsearch.kugou.com"
+  - "trackercdn.kugou.com"
+  ## KUGOU MUSIC END ##
+  #
+  ## KUWO MUSIC START ##
+  - "*.kuwo.cn"
+  ## KUWO MUSIC END ##
+  #
+  ## JOOX MUSIC START ##
+  - "api-jooxtt.sanook.com"
+  - "api.joox.com"
+  - "joox.com"
+  ## JOOX MUSIC END
+  #
