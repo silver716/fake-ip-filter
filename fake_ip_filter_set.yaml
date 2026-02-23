@@ -90,6 +90,13 @@ payload:
   - "*.*.xboxlive.com" # XBOX
   - "+.msftncsi.com"
   - "+.msftconnecttest.com"
+  - "wdcp.microsoft.com" # Microsoft Defender
+  - "wdcpalt.microsoft.com" # Microsoft Defender
+  - "+.smartscreen-prod.microsoft.com" # Microsoft Defender
+  - "definitionupdates.microsoft.com" # Microsoft Defender
+  - "+.endpoint.security.microsoft.com" # Microsoft Defender
+  - "+.smartscreen.microsoft.com" # SmartScreen
+  - "checkappexec.microsoft.com" # SmartScreen
   ## MICROSOFT END ##
   #
   ## XIAOMI START ##
